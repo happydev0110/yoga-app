@@ -2,16 +2,16 @@ import React from "react";
 
 import { View } from "react-native";
 
-import Header from '../components/Header';
-import Content from '../components/Content';
-import Footer from '../components/Footer';
+import Home from "./pages/home";
+import Product from "./pages/product";
+import Pricing from "./pages/pricing";
+import Video from "./pages/video";
 
 export default function Page() {
   return (
-    <View className="flex flex-1">
-      <Header />
-      <Content />
-      <Footer />
-    </View>
+      // <Home />
+      // <Product />
+      // <Pricing />
+      <Video />
   );
 }

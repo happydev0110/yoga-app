@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <View style={{ paddingTop: top }}>
       <View className="px-4 lg:px-6 h-14 flex items-center flex-row justify-between ">
-        <Link className="font-bold flex-1 items-center justify-center" href="#">
+        <Link className="font-bold flex-1 items-center justify-center" href="/">
           Yoga
         </Link>
         <View className="flex flex-row gap-4 sm:gap-6">
@@ -25,7 +25,7 @@ export default function Header() {
             Product
           </Link>
           <Link
-            className="text-md font-medium hover:underline web:underline-offset-4"
+            className="text-md font-medium hover:underline web:underline-offset-4 active"
             href="/pricing"
           >
             Pricing
